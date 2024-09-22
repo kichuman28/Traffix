@@ -1,5 +1,6 @@
 # Getting Started with Traffix!
 
+![image](https://github.com/user-attachments/assets/17cd69a6-1a17-4ed5-b57c-506cf99a3b0d)
 
 # IPFS Admin Panel - Road Safety Reporting DApp
 
@@ -24,15 +25,19 @@ The **IPFS Admin Panel** is a decentralized application (DApp) that allows users
 ## Screenshots:
 ### 1. Connect Wallet:
 Users need to connect their Metamask wallet to start using the app.
+![image](https://github.com/user-attachments/assets/0682f412-87af-4eb8-be5f-c8849c7eaacc)
 
 ### 2. Capture Image:
 Capture an image of the road safety issue using your webcam.
+![image](https://github.com/user-attachments/assets/a917212b-ba0d-4139-9d10-80e2b6d13d53)
 
 ### 3. Add Details:
 Fill in the details like location and issue description.
+![image](https://github.com/user-attachments/assets/cb120d65-f51b-473b-a5bb-f6dfb063b56d)
 
 ### 4. Submit Report:
 Submit the report to the blockchain securely and anonymously.
+![image](https://github.com/user-attachments/assets/8d2a83db-9c28-4780-8ee7-c191df0d2288)
 
 ## Getting Started
 
@@ -119,14 +124,5 @@ Contributions are welcome! Feel free to fork this project and submit pull reques
 
 ---
 
-Happy Coding! 🚀
-```
 
 
-3. **Technologies Used**: Listing the tech stack.
-4. **Getting Started**: Step-by-step guide for cloning, installing dependencies, and running the app locally.
-5. **Deployment**: Instructions for deploying using GitHub Pages.
-6. **How to Use**: Practical instructions for users to interact with the app.
-7. **Contributions and License**: Encouragement for open-source contributions.
-
-This `README.md` gives a clear idea of your app’s functionality and instructions on how to run and deploy it.
