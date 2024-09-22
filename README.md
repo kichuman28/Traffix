@@ -2,10 +2,10 @@
 
 ![image](https://github.com/user-attachments/assets/17cd69a6-1a17-4ed5-b57c-506cf99a3b0d)
 
-# IPFS Admin Panel - Road Safety Reporting DApp
+# Traffix - Road Safety Reporting DApp
 
 ## Overview
-The **IPFS Admin Panel** is a decentralized application (DApp) that allows users to report road safety issues anonymously. Built using **React** and **Web3**, the application interacts with the blockchain to store reports securely. It uses **Metamask** for wallet connection and **IPFS** for image storage, providing a trustless and transparent platform for reporting.
+The **Traffix** is a decentralized application (DApp) that allows users to report road safety issues anonymously. Built using **React** and **Web3**, the application interacts with the blockchain to store reports securely. It uses **Metamask** for wallet connection and **IPFS** for image storage, providing a trustless and transparent platform for reporting.
 
 ### Key Features:
 1. **Connect Wallet**: Users can connect their Metamask wallet to the app.
