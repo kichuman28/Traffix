@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# Getting Started with Traffix!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/user-attachments/assets/17cd69a6-1a17-4ed5-b57c-506cf99a3b0d)
 
-## Available Scripts
+# Traffix - Road Safety Reporting DApp
 
-In the project directory, you can run:
+## Overview
+The **Traffix** is a decentralized application (DApp) that allows users to report road safety issues anonymously. Built using **React** and **Web3**, the application interacts with the blockchain to store reports securely. It uses **Metamask** for wallet connection and **IPFS** for image storage, providing a trustless and transparent platform for reporting.
 
-### `npm start`
+### Key Features:
+1. **Connect Wallet**: Users can connect their Metamask wallet to the app.
+2. **Capture Image**: Users can take photos of road safety issues directly from their webcam.
+3. **Add Details**: Provide additional information about the issue via a simple report form.
+4. **Submit Report**: Submit the report to the blockchain, where it is stored securely and anonymously.
+5. **View Reports**: View previously submitted reports and track ongoing issues within the community.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used:
+- **React**: For building the user interface.
+- **Web3.js**: For blockchain interaction and smart contract calls.
+- **Metamask**: For wallet integration and blockchain authentication.
+- **IPFS**: For decentralized image storage.
+- **Pinata**: For IPFS file management.
 
-### `npm test`
+## Screenshots:
+### 1. Connect Wallet:
+Users need to connect their Metamask wallet to start using the app.
+![image](https://github.com/user-attachments/assets/0682f412-87af-4eb8-be5f-c8849c7eaacc)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Capture Image:
+Capture an image of the road safety issue using your webcam.
+![image](https://github.com/user-attachments/assets/a917212b-ba0d-4139-9d10-80e2b6d13d53)
 
-### `npm run build`
+### 3. Add Details:
+Fill in the details like location and issue description.
+![image](https://github.com/user-attachments/assets/cb120d65-f51b-473b-a5bb-f6dfb063b56d)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. Submit Report:
+Submit the report to the blockchain securely and anonymously.
+![image](https://github.com/user-attachments/assets/8d2a83db-9c28-4780-8ee7-c191df0d2288)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+To run this application locally, you will need:
 
-### `npm run eject`
+- **Node.js**: Install it from [Node.js Official Website](https://nodejs.org/).
+- **npm**: Node Package Manager is bundled with Node.js.
+- **Metamask Wallet**: Install the [Metamask extension](https://metamask.io/) in your browser.
+- **Git**: To clone the repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation Steps
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the Repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Open your terminal and run the following command to clone the repository:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone https://github.com/kichuman28/ipfs-admin-panel.git
+   ```
 
-## Learn More
+2. **Navigate to the Project Directory:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd ipfs-admin-panel
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Install Dependencies:**
 
-### Code Splitting
+   Run the following command to install the necessary packages:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm install
+   ```
 
-### Analyzing the Bundle Size
+4. **Start the Development Server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   After the dependencies have been installed, start the local development server by running:
 
-### Making a Progressive Web App
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   This will launch the app in your browser at `http://localhost:3000`.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To deploy this application on GitHub Pages:
 
-### `npm run build` fails to minify
+1. **Install gh-pages:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   npm install gh-pages --save-dev
+   ```
+
+2. **Add the deployment script to `package.json`:**
+
+   ```json
+   "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+   }
+   ```
+
+3. **Deploy to GitHub Pages:**
+
+   ```bash
+   npm run deploy
+   ```
+
+## How to Use
+
+1. **Connect Metamask Wallet**: Open the app and connect your Metamask wallet using the "Connect Wallet" button.
+2. **Capture an Image**: Use your webcam to capture an image of the issue you want to report.
+3. **Add Report Details**: Fill in the necessary details, including a description of the issue and location.
+4. **Submit Report**: Once the image and details are ready, click on the "Submit Report" button to submit the report to the blockchain.
+5. **View Existing Reports**: You can browse through existing reports submitted by other users.
+
+## License
+This project is licensed under the MIT License.
+
+## Contributions
+Contributions are welcome! Feel free to fork this project and submit pull requests. 
+
+---
+
+
+
